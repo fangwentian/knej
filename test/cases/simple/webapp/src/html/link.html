@@ -1,0 +1,58 @@
+<p>aaaaaaaaaaaaaaaaaaaaaaaa</p>
+
+<!-- @IGNORE {mode:'abc'} -->
+<p>111111111111111111111111111111111</p>
+<!-- /@IGNORE -->
+
+<!-- @IGNORE {mode:'online|abc'} -->
+<p>222222222222222222222222222222</p>
+<!-- /@IGNORE -->
+
+<!-- @IGNORE {mode:'test'} -->
+<p>33333333333333333333333333333333333</p>
+<!-- /@IGNORE -->
+
+<!-- @IGNORE {mode:'!online'} -->
+<p>4444444444444444444444444</p>
+<!-- /@IGNORE -->
+
+<style>
+    .a{background:url(/res/image/loading.gif);}
+    .portrait_img{
+        background-image:url("/res/image/loading.gif");
+        background:url("/res/image/sprite.png") \9\0;
+        background-size:22px auto;
+    }
+    @media only screen and (-webkit-min-device-pixel-ratio: 1.5){
+        .portrait_img{
+            background-image:url("/res/image/loading.gif");
+            background:url("/res/image/sprite.png") \9\0;
+        }
+    }
+
+    @font-face {
+        font-family: 'icomoon-yunxin';
+        src: url('../css/fonts/icomoon-yunxin.eot?tk5itx');
+        src: url('../css/fonts/icomoon-yunxin.eot?tk5itx#iefix') format('embedded-opentype'),
+        url('../css/fonts/icomoon-yunxin.ttf?tk5itx') format('truetype'),
+        url('../css/fonts/icomoon-yunxin.woff?tk5itx') format('woff'),
+        url('../css/fonts/icomoon-yunxin.svg?tk5itx#icomoon-yunxin') format('svg');
+        font-weight: normal;
+        font-style: normal
+    }
+</style>
+<style>
+    .todo-list li .toggle:after {
+        content: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="-10 -18 100 135"><circle cx="50" cy="50" r="50" fill="none" stroke="#ededed" stroke-width="3"/></svg>')
+    }
+</style>
+
+<!-- @version -->
+<script>location.config = {root:'/src/html/abc/'}</script>
+
+<script src="/src/javascript/widget.js"></script>
+
+<script>console.log("/res/image/loading.gif")</script>
+
+<script src="http://fed.hz.netease.com/git/nej2/src/define.js"></script>
+<script src="/src/javascript/page/app3.js"></script>
