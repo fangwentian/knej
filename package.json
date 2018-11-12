@@ -1,7 +1,7 @@
 {
-    "name": "nej",
+    "name": "knej",
     "description": "frontend publish toolkit",
-    "version": "1.3.9",
+    "version": "1.4.0",
     "license": "MIT",
     "keywords": ["nej","web","project","toolkit","builder","deploy","publisher","javascript","front end","obfuscator"],
     "author": "genify <caijf@corp.netease.com> (http://genify.blog.163.com/)",
@@ -11,13 +11,13 @@
         "nej-init": "./bin/init.js",
         "nej-build": "./bin/build.js"
     },
-    "homepage": "https://github.com/genify/toolkit2",
+    "homepage": "https://github.com/fangwentian/knej",
     "scripts": {
         "test": "node test/run_tests.js"
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/genify/toolkit2.git"
+        "url": "https://github.com/fangwentian/knej.git"
     },
     "engines":{
         "node":">=0.12"
